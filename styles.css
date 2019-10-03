@@ -1,0 +1,25 @@
+ul{
+    list-style-type: none;
+}
+li{
+    display: flex;
+    flex-direction: column;
+    border: 0.5px gray;
+    border-style: solid;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 35%;
+}
+li > p{
+    margin-top: 10px;
+    text-indent: 10px;
+    color: gray;
+    font-style: italic;
+}
+li > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
